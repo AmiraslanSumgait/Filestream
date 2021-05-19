@@ -210,17 +210,9 @@ void delete_speccific_text(const string& name) {
 
 
 int main() {
-	//file_txt_write();
-	//file_txt_read();
-
-	//file_binary_write();
-	//file_binary_read();
-
 
 	//file_txt_write_object();
-	//file_txt_read_object();
 	delete_speccific_text("Ilqar");
-	//find("Nebi");
 
 	return 0;
 }
