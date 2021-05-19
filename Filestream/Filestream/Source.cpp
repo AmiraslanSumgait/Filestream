@@ -114,7 +114,7 @@ void file_txt_write_object() {
 void file_txt_read_object() {
 	Contact contact;
 
-	ifstream fin("obj.txt");
+	ifstream fin("True.txt");
 
 	if (fin.is_open()) {
 
@@ -141,7 +141,7 @@ void file_txt_read_object() {
 void find(const string& name) {
 	Contact contact;
 
-	ifstream fin("obj.txt");
+	ifstream fin("True.txt");
 
 	if (fin.is_open()) {
 		bool isFind = false;
